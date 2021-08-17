@@ -1,6 +1,6 @@
 # Trybe
 
-Neste repositório contam todas as atividades de aprendizagem desenvolvidas por _[Amanda Sottani Nasciemento](www.linkedin.com/in/amandasottani)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Neste repositório constam todas as atividades de aprendizagem desenvolvidas por _[Amanda Sottani Nasciemento](www.linkedin.com/in/amandasottani)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia"_
 
