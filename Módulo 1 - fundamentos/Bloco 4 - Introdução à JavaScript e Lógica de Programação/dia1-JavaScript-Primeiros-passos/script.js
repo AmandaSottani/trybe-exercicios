@@ -110,3 +110,45 @@ const anguloTres = -80;
      console.log(false)
  }
  
+ //questao dez
+ const custo = 5;
+ const valor = 10;
+ let quantidade = 1000;
+ let custoTotal = custo +(custo*0.2);
+if (custo<0 || valor<0 || quantidade <1000){
+    console.log(erro)
+}else{
+    console.log(1000*(valor-custoTotal))
+}
+
+//questao onze
+const salarioBruto = 3000;
+let descontoInss ="";
+let descontoIr="";
+
+if (salarioBruto<=1556.94){
+    descontoInss = salarioBruto*0.08;
+}else if(salarioBruto<=2594.92){
+    descontoInss = salarioBruto*0.09;
+}else if(salarioBruto<=5189.82){
+    descontoInss = salarioBruto*0,11;
+}else{
+    descontoInss = 570.88;
+}
+
+let salarioBase = salarioBruto-descontoInss;
+
+if (salarioBase<=1903.98){
+    descontoIr = 0;
+}else if(salarioBase<=2826.65){
+    descontoIr = (salarioBase*0.075)-142.8;
+}else if(salarioBase<=3751.05){
+    descontoIr = (salarioBase*0.15)-354.8;
+}else if(salarioBase<=4664.68){
+    descontoIr = (salarioBase*0.225)-636.13;
+}else {
+    descontoIr = (salarioBase*0.275)-869.36;
+}
+ 
+let salarioLiquido = salarioBase-descontoIr;
+console.log(salarioLiquido)
