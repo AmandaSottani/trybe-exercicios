@@ -37,3 +37,19 @@ if (number>0){
 }else{
     console.log("zero")
 }
+
+//questão cinco
+const anguloUm = 70;
+const anguloDois = 30;
+const anguloTres = -80;
+ if (anguloUm<0 || anguloDois<0 || anguloTres<0){
+     console.log("erro")
+ }else if(anguloUm+anguloDois+anguloTres==180){
+     console.log(true)
+ }else{
+     console.log(false)
+ }
+
+ //questao seis]
+ const nomePeça = "Peão"
+ nomePeça.toLowerCase()
